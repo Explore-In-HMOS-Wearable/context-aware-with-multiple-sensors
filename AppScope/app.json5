@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.contextawaredemo",
+    "bundleName": "com.hmosdemos.wearable.context_aware_demo",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

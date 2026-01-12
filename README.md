@@ -6,10 +6,12 @@
 It demonstrates how a smartwatch can generate context awareness—detecting user activity, monitoring physiological signals, and updating the interface dynamically based on live sensor inputs.
 # Preview
 <div>
-    <img src="screenshot/ss1.png" width="24%"> 
-    <img src="screenshot/ss2.png" width="24%"> 
-    <img src="screenshot/ss3.png" width="24%"> 
-    <img src="screenshot/ss4.png" width="24%">
+
+<img src="screenshots/ss1.png" width="24%"> 
+  <img src="screenshots/ss2.png" width="24%"> 
+  <img src="screenshots/ss3.png" width="24%"> 
+  <img src="screenshots/ss4.png" width="24%">
+
 </div>
 
 # Use Cases
@@ -21,9 +23,8 @@ It demonstrates how a smartwatch can generate context awareness—detecting user
  
 
 
-# Technology
+# Tech Stack
 
-## Stack
 - **Languages:** ArkTS (TypeScript)
 - **UI:** ArkUI (`@kit.ArkUI`)
 - **Tools/IDE:** DevEco Studio **6.0.0**
@@ -37,7 +38,10 @@ entry/
     └── main/
         └── ets/
             ├── pages/
-            │   └── Index.ets
+            │   └── DashboardView.ets
+            |   └── Index.ets
+            |   └── ReportsView.ets
+            |   └── StartView.ets
             └── common/
                 └── PermissionHelper.ets
 
